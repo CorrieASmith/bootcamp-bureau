@@ -14,6 +14,8 @@ export default Ember.Component.extend({
         bootcamp: bootcamp
       };
       this.set('addComment', false);
+      this.set('name', "");
+      this.set('comment', "");
       this.sendAction('saveComment', params);
     }
   }
