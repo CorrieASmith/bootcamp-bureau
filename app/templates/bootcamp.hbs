@@ -1,1 +1,7 @@
+<ul>
+  {{#each model as |bootcamp|}}
+    <li>{{bootcamp.name}} ({{bootcamp.location}})</li>
+  {{/each}}
+</ul>
+
 {{#link-to 'index'}} Home {{/link-to}}
