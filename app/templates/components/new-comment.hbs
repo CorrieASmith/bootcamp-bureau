@@ -1,0 +1,19 @@
+{{#if addComment}}
+  <h3 class="title">New Comment</h3>
+  <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      {{input value=name id="name" class="form-control"}}
+    </div>
+
+    <div class="form-group">
+      <label for="comment">Comment</label>
+      {{input value=comment id="comment" class="form-control"}}
+    </div>
+
+    <button {{action 'saveComment' bootcamp}} class="btn btn-primary btn-xs">Submit</button>
+  </form>
+{{else}}
+  <button {{action 'commentFormShow'}} class="btn btn-primary btn-xs">Add Comment</button>
+{{/if}}
+<br>

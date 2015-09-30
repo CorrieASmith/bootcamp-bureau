@@ -4,3 +4,13 @@
 
 <br><br>
 {{model.description}}
+
+<br><br>
+{{new-comment saveComment="saveComment" bootcamp=model}}
+
+<br>
+<ul>
+  {{#each model.comments as |comment|}}
+  {{comment-tile comment=comment}}
+  {{/each}}
+</ul>
