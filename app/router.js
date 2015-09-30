@@ -6,7 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('bootcamp');
+  this.route('bootcamps');
+  this.route('dabooty', {path: '/bootcamp/:bootcamp_id'});
 });
 
 export default Router;
