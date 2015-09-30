@@ -4,4 +4,5 @@ export default DS.Model.extend({
   name: DS.attr(),
   location: DS.attr(),
   description: DS.attr(),
+  image: DS.attr(),
 });

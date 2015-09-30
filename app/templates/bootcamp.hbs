@@ -2,7 +2,7 @@
 
 <ul>
   {{#each model as |bootcamp|}}
-    <li>{{bootcamp.name}} ({{bootcamp.location}})</li>
+    {{bootcamp-tile bootcamp=bootcamp}}
   {{/each}}
 </ul>
 
