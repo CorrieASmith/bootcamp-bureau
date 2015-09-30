@@ -1,14 +1,20 @@
 { "bootcamps": [{
   "name": "Code Fellows",
   "location": "Seattle, WA",
-  "description": "Code Fellows is an in-person code school offering job-ready web and mobile development training in Seattle, WA, Portland, OR, and Chicago, IL. For aspiring developers, Code Fellows offers Code 101 workshops and Code 201 courses that train students in the fundamentals of software development. Code 301 focuses on creating and launching an interactive web app in HTML, CSS, and JavaScript, plus the technologies, tools, and frameworks used by developers around the world."
+  "description": "Code Fellows is an in-person code school offering job-ready web and mobile development training in Seattle, WA, Portland, OR, and Chicago, IL. For aspiring developers, Code Fellows offers Code 101 workshops and Code 201 courses that train students in the fundamentals of software development. Code 301 focuses on creating and launching an interactive web app in HTML, CSS, and JavaScript, plus the technologies, tools, and frameworks used by developers around the world.",
+  "longitude": "100",
+  "latitude": "100"
   }, {
   "name": "Epicodus",
   "location": "Portland, OR",
-  "description": "Epicodus's mission is to help people learn the skills they need to get great jobs. For us, “great jobs” means jobs in growing industries that pay well and provide rewarding work. Beyond the particular skills needed to get these jobs, we aim to help our students become confident self-teachers who can adapt to changing job markets, and great communicators who will work well in teams. We focus on serving people who, by birth or circumstance, don't have easy access to learning the skills they need to get these great jobs."
+  "description": "Epicodus's mission is to help people learn the skills they need to get great jobs. For us, “great jobs” means jobs in growing industries that pay well and provide rewarding work. Beyond the particular skills needed to get these jobs, we aim to help our students become confident self-teachers who can adapt to changing job markets, and great communicators who will work well in teams. We focus on serving people who, by birth or circumstance, don't have easy access to learning the skills they need to get these great jobs.",
+  "longitude": -122.675440,
+  "latitude": 45.521868
   }, {
   "name": "Codeup",
   "location": "San Antonio, TX",
-  "description": "Our results speak for themselves. 96% of graduates from our first four programs found work in 6 months. Our students increased their yearly earning power by $13,000 in just the first year after completing Codeup."
+  "description": "Our results speak for themselves. 96% of graduates from our first four programs found work in 6 months. Our students increased their yearly earning power by $13,000 in just the first year after completing Codeup.",
+  "longitude": "100",
+  "latitude": "100"
   }]
 }
