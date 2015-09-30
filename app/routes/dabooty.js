@@ -15,5 +15,9 @@ export default Ember.Route.extend({
       });
       this.transitionTo('bootcamps', params.bootcamp);
     },
+
+    destroyComment(comment, params) {
+      comment.destroyRecord();
+    }
   }
 });
