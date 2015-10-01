@@ -2,8 +2,8 @@
   "name": "Code Fellows",
   "location": "Seattle, WA",
   "description": "Code Fellows is an in-person code school offering job-ready web and mobile development training in Seattle, WA, Portland, OR, and Chicago, IL. For aspiring developers, Code Fellows offers Code 101 workshops and Code 201 courses that train students in the fundamentals of software development. Code 301 focuses on creating and launching an interactive web app in HTML, CSS, and JavaScript, plus the technologies, tools, and frameworks used by developers around the world.",
-  "longitude": "100",
-  "latitude": "100"
+  "longitude": -122.336069,
+  "latitude": 47.623772
   }, {
   "name": "Epicodus",
   "location": "Portland, OR",
@@ -14,7 +14,7 @@
   "name": "Codeup",
   "location": "San Antonio, TX",
   "description": "Our results speak for themselves. 96% of graduates from our first four programs found work in 6 months. Our students increased their yearly earning power by $13,000 in just the first year after completing Codeup.",
-  "longitude": "100",
-  "latitude": "100"
+  "longitude": -98.492251,
+  "latitude": 29.428728
   }]
 }
